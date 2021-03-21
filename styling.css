@@ -1,0 +1,86 @@
+body {
+  width: 800px;
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 19px;
+}
+div {
+  margin-top: 100px;
+}
+#startButton,
+#nextButton {
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  min-width: 50px;
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 10px 24px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#button0 {
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  min-width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 10px 24px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#button1 {
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  min-width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 10px 24px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#button2 {
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  padding: 10px 24px;
+  min-width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#button3 {
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  padding: 10px 24px;
+  min-width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+#nextQ {
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  padding: 10px 24px;
+  min-width: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
