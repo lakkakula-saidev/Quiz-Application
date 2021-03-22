@@ -170,6 +170,16 @@ function getAnswerId(givenArray){
     }
 }
 
+function createDifficulty(){
+
+  let currentDiv = document.querySelector('div')
+  let temp = document.createElement('input')
+  temp.setAttribute('type', 'button')
+  temp.id = `difficultyButton`
+  temp.setAttribute('value',questions[shuffleArray[questionNumber]].difficulty)
+  currentDiv.appendChild(temp)
+
+}
 
 function createVars(){
 
@@ -195,12 +205,17 @@ function createVars(){
         let nextButton = document.createElement('input')
         nextButton.setAttribute('type', 'button')
         nextButton.id = `nextButton`
-        nextButton.setAttribute('value','Next Question')
+          if(questionNumber===9){
+          nextButton.setAttribute('value','Submit')
+          }else{
+            nextButton.setAttribute('value','Next Question')
+          }
         nextButton.style.display = 'none'
         nextButton.addEventListener('click',createVars)
         newDiv.appendChild(nextButton)
         document.body.appendChild(newDiv)
-        console.log(overallScore) 
+        //console.log(overallScore) 
+        createDifficulty()
 
     }else{
         let newDiv = document.createElement('div')
